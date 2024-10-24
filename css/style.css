@@ -192,6 +192,8 @@ figure {
     font-weight: 400;
     color: rgba(0, 0, 0, 0.5);
     padding: 0 20px;
+    height: 100%;
+    position: fixed;
     width: 100%; }
     @media screen and (max-width: 768px) {
       #colorlib-aside .colorlib-footer {
@@ -222,8 +224,11 @@ figure {
   display: flex;
   gap: 20px;
   text-decoration: none;
-  text-align: right;
+  text-align: center;
   justify-content: center;
+  font-size: 150%;
+  margin-top: 20%;
+  
 }
 #colorlib-main {
   width: calc(100% - 300px);
